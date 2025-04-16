@@ -49,4 +49,4 @@
 
 
 
-- npm install eas, signup eas, configure eas, eas build -android
+- npm install eas, signup eas, configure eas, eas build -androidsdfsdfrandome changes 
