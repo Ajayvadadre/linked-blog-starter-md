@@ -81,11 +81,12 @@ branchname tracelog
 #### node14 services added in 
 1. recordingscheduler (ajay)
 2. thresholdhandler(ajay)
-3. userInActivator
-4. eternalCall
-5. eventifierService
-6. kibanaQueue
-7. leadManager
-8. liveMonitorV2
-9. reportscheduler 
-10. stickyagent not added code
+3. userInActivator(ajay)
+4. eternalCall(Hamza)
+5. eventifierService(Hamza)
+6. kibanaQueue(Hamza)
+7. leadManager(Hamza)
+8. liveMonitorV2(Hamza)
+9. reportscheduler (Hamza)
+10. 
+11. stickyagent not added code
