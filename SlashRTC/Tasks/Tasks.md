@@ -78,10 +78,7 @@ main.js> add DISABLE_SERVICE line below fetchbashfrommongo>inside if isprojectil
 commit added 
 branchname tracelog
 
-
-
-
-node14 services added in 
+### node14 services added in 
 - recordingscheduler 
 - thresholdhandler
 - userInActivator
