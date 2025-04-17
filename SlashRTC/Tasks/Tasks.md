@@ -45,7 +45,7 @@ We have not found issue from our side.
 
 
 ### QueuePlayer unable to run issue(TechOps)
-- Issue is been caused due to code written inside psl/index.js which is used by another library is of node6 and the node version service is running is on node4 which is not able to understand node6 code in that folder, so we need to downgrade it to lower than node6 
+- Issue is been caused due to code written inside psl/index.js which is used by another library is of node6 and the node version service is running on is node4 which is not able to understand node6 code in that folder, so we need to downgrade it to lower than node6 
 - Steps to solve it
 	- delete old node_modules run->> rm -rf node_modules
 	- run->>npm install request@2.74.0 request-promise@4.1.1 --save-exact
