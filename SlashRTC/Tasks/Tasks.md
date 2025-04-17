@@ -79,11 +79,16 @@ commit added
 branchname tracelog
 
 
-stickyagent not code
-reportscheduler not code
 
 
 node14 services added in 
 - recordingscheduler 
 - thresholdhandler
 - userInActivator
+- eternalCall
+- eventifierService
+- kibanaQueue
+- leadManager
+- liveMonitorV2
+- reportscheduler 
+- stickyagent not added code
