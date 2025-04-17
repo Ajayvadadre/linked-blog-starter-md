@@ -70,3 +70,8 @@ We have not found issue from our side.
 	- It should work if there is __ and if there is no __ main there should be skillgroup 
 - Sol:- There was no issue related to underscore, issue was of numbers were masked with ( *** )  due to which leadset was not able to insert and returns notAbleToInsert csv file.
   
+
+
+
+
+main.js 
