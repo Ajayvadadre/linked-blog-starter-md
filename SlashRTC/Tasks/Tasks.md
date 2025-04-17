@@ -74,4 +74,4 @@ We have not found issue from our side.
 
 
 
-main.js 
+main.js> add DISABLE_SERVICE line > 
