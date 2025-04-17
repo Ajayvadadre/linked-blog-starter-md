@@ -45,16 +45,19 @@ We have not found issue from our side.
 
 
 ### QueuePlayer unable to run issue(TechOps)
-- Issue is been caused due to code written inside psl/index.js which is used by another library is of node6 and the node version service is running on is node4 which is not able to understand node6 code in that folder, so we need to downgrade it to lower than node6 
-- Steps to solve it
-	- delete old node_modules run->> rm -rf node_modules
-	- run->>npm install request@2.74.0 request-promise@4.1.1 --save-exact
-	- run->>npm i
-	- go to ->cd node_modules/request/node_modules/tough-cookie/node_modules 
-		- delete psl folder(As this is using code above node 6 version) run->>  rm -rf psl
-		- run->> npm install psl@1.1.20 --save-exact
-	- do same above step to remove psl folder for request-promise run->>cd node_modules/request-promise/node_modules/tough-cookie/node_modules
-	- restart the server run->> pm2 restart 23 && pm2 logs 23
+- Issue is been caused due to code written inside psl/index.js which is used by another library is of node6 and the node version service is running on is node4 which is not able to understand node6 code in that folder, so we need to downgrade it to lower than node6  
+- Steps to solve it:  
+    - delete old node_modules run->> rm -rf node_modules  
+    - run->>npm install request@2.74.0 request-promise@4.1.1 --save-exact  
+    - run->>npm i  
+    - go to ->cd node_modules/request/node_modules/tough-cookie/node_modules  
+        - delete psl folder(As this is using code above node 6 version) run->>  rm -rf psl  
+        - run->> npm install psl@1.1.20 --save-exact  
+- do same above step to remove psl folder for request-promise run->>  
+    cd node_modules/request-promise/node_modules/tough-cookie/node_modules  
+        - delete psl folder(As this is using code above node 6 version) run->>  rm -rf psl  
+        - run->> npm install psl@1.1.20 --save-exact  
+- restart the server run->> pm2 restart 23 && pm2 logs 23
 
 
 
