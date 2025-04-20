@@ -37,4 +37,4 @@
 - events
 - Useeffect in depth 
  - Promises
-- [[personal_vault/Course notes/Preparation questions/Javascript imp questions/Js questions]]]
+- [[personal_vault/Personal-vault/Course notes/Preparation questions/Javascript imp questions/Js questions]]]
