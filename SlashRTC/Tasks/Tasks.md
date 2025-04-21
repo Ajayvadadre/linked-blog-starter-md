@@ -1,11 +1,15 @@
+🟢=completed
+🟡=ongoing 
+
 
 ---
-### Task - 32237 (Multiple Issues-Balics2s)
+### Task - 32237 (Multiple Issues-Balics2s)🟢
 - Department - L3 Dev support 
 - Assigned by - Kanishk magare
 - Ticket number-  060644
 - Client name- Balics2s
 - Task assigned-  3/18/25 12:46 PM
+- status- completed
 - Issue - Failed jobs not getting cleared from Queue increasing Redis memory use
 - Findings: 
 	1. MongoError jobs are getting re-added again and again without any limit to it that might cause queue to be filled quickly
@@ -16,7 +20,7 @@
 - Transfered this issue to Ayush nalawade and he has provided a sol for it.
 
 --- 
-### Task - React Native app (PBX softphone)
+### Task - React Native app (PBX softphone)🟢
 - Department - CD (Customer Delievers)
 - Assigned by - Anay Kachare
 - Requirement- Webapp dialer in the form of app
@@ -28,7 +32,7 @@
 
 ---
 
-### Task- 33673 Report issuse (TMPW(Eclat))
+### Task- 33673 Report issue (TMPW(Eclat))🟢
 - Department - L3dev-support
 - Assigned by - Ashok solanki
 - Only inbound call issue
@@ -44,7 +48,7 @@ We also gone through the logs for this particular call and found out that the r
 We have not found issue from our side.
 
 
-### QueuePlayer unable to run issue(TechOps)
+### QueuePlayer unable to run issue(TechOps)🟢
 - Issue is been caused due to code written inside psl/index.js which is used by another library is of node6 and the node version service is running on is node4 which is not able to understand node6 code in that folder, so we need to downgrade it to lower than node6  
 - Steps to solve it:  
     - delete old node_modules run->> rm -rf node_modules  
@@ -62,7 +66,7 @@ We have not found issue from our side.
 
 
 
-### Task- 061917 Leadset upload issue in (uat-common)
+### Task- 061917 Leadset upload issue in (uat-common)🟢
 - Department - L3dev-support
 - Assigned by - claimed by self
 - Issue - Not able to upload leadset with __ underscore
@@ -71,22 +75,52 @@ We have not found issue from our side.
 - Sol:- There was no issue related to underscore, issue was of numbers were masked with ( *** )  due to which leadset was not able to insert and returns notAbleToInsert csv file.
   
 
+---- 
 
 
-### add lines 
+### Task - add lines code lines in main.js 🟡
 main.js> add DISABLE_SERVICE line below fetchbashfrommongo>inside if isprojectilepath >inside init func below if(fetch bash from mongo add its below if ) 
 commit added 
 branchname tracelog
 
-#### node14 services added in 
-1. recordingscheduler (ajay)
-2. thresholdhandler(ajay)
-3. userInActivator(ajay)
-4. eternalCall(Hamza)
-5. eventifierService(Hamza)
-6. kibanaQueue(Hamza)
-7. leadManager(Hamza)
-8. liveMonitorV2(Hamza)
-9. reportscheduler (Hamza)
-10. 
-11. stickyagent not added code
+#### node14 services: 
+1. recordingscheduler (ajay->changes pushed)
+2. thresholdhandler(ajay->changes pushed)
+3. userInActivator(ajay->changes pushed)
+4. eternalCall(Hamza->changes pushed)
+5. eventifierService(Hamza->changes pushed)
+6. kibanaQueue(Hamza->changes pushed)
+7. leadManager(Hamza->changes pushed)
+8. liveMonitorV2(Hamza->changes pushed)
+9. reportscheduler (Hamza->changes pushed)
+10. elasticQueueClient(anupam->changes pushed)
+11. AutoDialling(anupam->changes pushed)
+12. ApiLogger(anupam->changes pushed)
+13. calculateStats(anupam->changes pushed)
+14. cloudAuthserver(anupam->changes pushed)
+15. stickyagent not added code
+
+
+#### node4 services:
+
+1. apiQueueConsumer
+2. autoFailedReportGenerator
+3. beanQueApi
+4. bulkLeadPushListen
+5. callEventManager
+6. callingApis
+7. chatOfferManager
+8. chatServer
+9. churnLeadQueue
+10. clientIntegration
+11. environServer
+12. heartBeater
+13. inboundPrototype
+14. liveMonitoringSocketServer
+15. newInboundPrototype
+16. preCallHandler
+17. queueConsumer
+18. queuePlayer
+19. sftpConnect
+20. socketServer
+21. stateManagementQueue
